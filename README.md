@@ -1,14 +1,9 @@
 # MHW_EVWP_Template
 Binary Template for the 010 Editor to edit various weapon parameters in Monster Hunter: World.
 
-Such as:
-- Personal room weapon rack position, rotation, and scale.
-- Sheathed position and rotation (scaling is done automatically apparently, probably by animation).
-- Pendant position, rotation, and scale.
-- Global EFX setting.
-- Various bitflags (like having Ciri's dual blade dash on any dual blades)
+Wiki write-up here: https://github.com/Ezekial711/MonsterHunterWorldModding/wiki/Editing-EVWP-Files
 
-_Thanks to Silvris for researching and creating this with me!_
+_Thanks to Silvris and Asterisk for researching and creating this with me!_
 
 ***
 This file requires the 010 Editor found here: https://www.sweetscape.com/010editor/
