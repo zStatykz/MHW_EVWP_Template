@@ -2,7 +2,7 @@
 //--- 010 Editor v9.0.2 Binary Template
 //
 //      File: 
-//   Authors: 
+//   Authors: Statyk, Silvris
 //   Version: 
 //   Purpose: 
 //  Category: 
@@ -36,4 +36,8 @@ uint globalEFX              <name="Global EFX", bgcolor=0x00FFFF, comment="Index
 xyzStruct pendantPos        <name="Pendant Position", bgcolor=0x3030FF, comment="On weapon, NOT room rack">;
 xyzStruct pendantRot        <name="Pendant Rotation", bgcolor=0x7070FF, comment="On weapon, NOT room rack">;
 float pendantScale          <name="Pendant Scale", bgcolor=0xB0B0FF, comment="On weapon, NOT room rack">;
-byte unkn2[5]               <bgcolor=0x000000>;
+byte pendantShift           <name="Pendant Location", bgcolor=0x0020E6, comment="Moves the pendant from secondary models (LS sheath) to main models (LS sword)">;
+byte emissInhibit           <name="Emission Inhibitor", bgcolor=0x0020FF, comment="Sets emission to 0 when weapon is sheathed.">;
+byte flag3                  <name="Unknown Flag 2", bgcolor=0x1a3aFF, comment="Unknown Flag, used by Space Lord Hammer">;
+byte visConDelay            <name="VisCon Delay", bgcolor=0x3350FF, comment="Seemingly adds a delay to models with visible condition 1">;
+byte flag5                  <name="Unknown Flag 3", bgcolor=0x4d66FF, comment="Unknown Flag, used by Space Lord Hammer">;
